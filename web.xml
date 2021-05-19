@@ -1,0 +1,31 @@
+<servlet>
+
+        <servlet-name>loginServlet</servlet-name>
+
+        <servlet-class>zh.userlogin.sample.LoginServlet</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>loginServlet</servlet-name>
+
+        <url-pattern>/loginServlet</url-pattern>
+
+    </servlet-mapping>
+
+    <servlet>
+
+        <servlet-name>validationCode</servlet-name>
+
+        <servlet-class>zh.userlogin.sample.ValidationCode</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>validationCode</servlet-name>
+
+        <url-pattern>/validationCode</url-pattern>
+
+</servlet-mapping>
